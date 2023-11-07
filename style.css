@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-image: url(https://demoda.vn/wp-content/uploads/2022/02/background-xanh-duong.jpg);
+
+    background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ màn hình */
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: poppins, Helvetica, sans-serif;
+}
+.container {
+    background: #ffffff;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+button {
+    outline: 200px;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #161111;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+a {
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: poppins;
+    color: black;
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+.contact {
+    font-size: 10px;
+}
